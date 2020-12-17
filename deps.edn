@@ -5,7 +5,7 @@
  :deps    {org.clojure/clojure {:mvn/version "1.10.1"}
            cheshire/cheshire {:mvn/version "5.10.0"}
            galdolber/data.xml
-           {:git/url "git@github.com:galdolber/data.xml.git"
+           {:git/url "https://github.com/galdolber/data.xml.git"
             :sha "59e128226f765bc1c962dd80815f0f2795dc3da2"}}
  :aliases {:update-versions {:extra-paths ["build/src"]
                              :main-opts   ["-m" "cognitect.aws.version-updater"]}
